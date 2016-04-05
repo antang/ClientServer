@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1c51822f02a5cbde"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="TNA"
+		host="TNA-PC"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18408"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="2016-04-05 11:22:54 PM"
+		timestampiso="2016-04-05T16:22:54"
+		timeoutfactor="1"
+		module="ConnectSuccessfull">
+		<detail>
+			ConnectSuccessfull
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.504"
+			timeRelativeToTestModuleStartTime="00:00.504"
+			timeWallClock="23:22:54"
+			time="00:00.504"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>var_LinkServer, var_LinkClient, var_IPServer, var_ConnectSuccessful
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.545"
+			timeRelativeToTestModuleStartTime="00:00.545"
+			timeWallClock="23:22:54"
+			time="00:00.545"
+			level="Info"
+			category="Application">
+			<message>
+				Run Server<br/>Run application with file name from variable $var_LinkServer with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codeline="135"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.593"
+			timeRelativeToTestModuleStartTime="00:00.593"
+			timeWallClock="23:22:54"
+			time="00:00.593"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'Text' from item 'ServerSide.TxtIPServer' and assigning its value to variable 'var_IPServer'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ServerSide']/text[@controlname='txt_IPServer']"
+				fullname="Demo1Repository.ServerSide.TxtIPServer"
+				id="0300e711cd5b4084b10929b1d22d4d58"
+				timeout="60000"
+				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codeline="139"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.847"
+			timeRelativeToTestModuleStartTime="00:01.847"
+			timeWallClock="23:22:56"
+			time="00:01.847"
+			level="Info"
+			category="Application">
+			<message>
+				Run Client<br/>Run application with file name from variable $var_LinkClient with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codeline="144"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.855"
+			timeRelativeToTestModuleStartTime="00:01.855"
+			timeWallClock="23:22:56"
+			time="00:01.855"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$var_IPServer' with focus on 'ClientSide.TxtIPAddress'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ClientSide']/text[@controlname='txtIPAddress']"
+				fullname="Demo1Repository.ClientSide.TxtIPAddress"
+				id="b3f96c3023d94f94a9f75e2d85466101"
+				timeout="60000"
+				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codeline="148"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.443"
+			timeRelativeToTestModuleStartTime="00:04.443"
+			timeWallClock="23:22:58"
+			time="00:04.443"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ClientSide.BtnConnect' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ClientSide']/button[@controlname='btnConnect']"
+				fullname="Demo1Repository.ClientSide.BtnConnect"
+				id="8d734e1469764af7a33c9a98ecb33b7c"
+				timeout="60000"
+				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codeline="152"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.269"
+			timeRelativeToTestModuleStartTime="00:05.269"
+			timeWallClock="23:22:59"
+			time="00:05.269"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeContains (Text&gt;$var_ConnectSuccessful) on item 'ClientSide.TxtChatScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ClientSide']/text[@controlname='txtChatScreen']"
+				fullname="Demo1Repository.ClientSide.TxtChatScreen"
+				id="2a6e1b8416344fed8688bd008a6d6893"
+				timeout="60000"
+				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codeline="156"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.454"
+			timeRelativeToTestModuleStartTime="00:05.454"
+			timeWallClock="23:22:59"
+			time="00:05.454"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'Demo1Repository.ClientSide.TxtChatScreen' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ClientSide']/text[@controlname='txtChatScreen']"
+				fullname="Demo1Repository.ClientSide.TxtChatScreen"
+				id="2a6e1b8416344fed8688bd008a6d6893"
+				timeout="60000"
+				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codeline="157"
+				loglvl="Success"
+				itemindex="5"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.457"
+			timeRelativeToTestModuleStartTime="00:05.457"
+			timeWallClock="23:22:59"
+			time="00:05.457"
+			level="Info"
+			category="Application">
+			<message>
+				Killing application containing item 'ServerSide'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ServerSide']"
+				fullname="Demo1Repository.ServerSide.Self"
+				id="39fe45d1901742c59647834a554cede2"
+				timeout="30000"
+				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codeline="160"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.524"
+			timeRelativeToTestModuleStartTime="00:05.524"
+			timeWallClock="23:22:59"
+			time="00:05.524"
+			level="Info"
+			category="Application">
+			<message>
+				Killing application containing item 'ClientSide'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ClientSide']"
+				fullname="Demo1Repository.ClientSide.Self"
+				id="b232837eb23e424199ea7130de03415a"
+				timeout="30000"
+				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codeline="164"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

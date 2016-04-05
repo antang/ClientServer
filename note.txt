@@ -1,0 +1,7 @@
+1. connnect to sucessfully 
+2. notify when entered wrong IP server
+3. disconnect and connect again
+4. server send message to client
+5. Client send message to server
+IP Address is invalid or the other side is not accessable!
+IP Address is invalid or the other side is not accessable!

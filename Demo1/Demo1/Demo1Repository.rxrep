@@ -1,0 +1,218 @@
+﻿<repository
+name="Demo1Repository"
+id="458da9a2-5117-4768-97bf-8b9ba5b599da"
+rxversion="5.4.6.0">
+	<codegen
+	classname="Demo1Repository"
+	namespace="Demo1"/>
+	<rootfolder
+	name="Root"
+	id="ded4aa9c-34c5-405c-81f3-68ac8d976552"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="ServerSide"
+		id="39fe45d1-9017-42c5-9647-834a554cede2"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@controlname='ServerSide']"
+		addcaps="form,control,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="TxtIPServer"
+			id="0300e711-cd5b-4084-b109-29b1d22d4d58"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@controlname='ServerSide']/text[@controlname='txt_IPServer']"
+			addcaps="text,control,nativewindow"
+			refimgid="7ce46390-7819-45ab-b7f9-9f5f79106edc">
+				/form[@controlname='ServerSide']/text[@controlname='txt_IPServer']
+			</item>
+			<item
+			name="TxtMessage"
+			id="632ce384-83c5-49e2-868e-2d6c5b17fdd4"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@controlname='ServerSide']/text[@controlname='txtMessage']"
+			addcaps="text,control,nativewindow"
+			refimgid="dd9cc415-81f3-468a-8c8d-907c855c4f2c">
+				/form[@controlname='ServerSide']/text[@controlname='txtMessage']
+			</item>
+			<item
+			name="BtnSend"
+			id="eccad40c-42ee-498b-888f-462ec7df365b"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='ServerSide']/button[@controlname='btnSend']"
+			addcaps="button,control,nativewindow"
+			refimgid="13bf5cb8-439e-4c72-9fe7-cb8e97307ee2">
+				/form[@controlname='ServerSide']/button[@controlname='btnSend']
+			</item>
+			<item
+			name="TxtChatScreen"
+			id="35040e31-a67d-486f-a43f-63233e5c2746"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@controlname='ServerSide']/text[@controlname='txtChatScreen']"
+			addcaps="text,control,nativewindow"
+			refimgid="33e5d48b-456c-4d70-879c-23f61d823b86">
+				/form[@controlname='ServerSide']/text[@controlname='txtChatScreen']
+			</item>
+			<basepath>
+				/form[@controlname='ServerSide']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH2SURBVDhPrdNfSJNhFMfxR1DbCmXm1DLZTdAo
+jOgiIuwiCNMIAiUoFClmWVkJYZoZJpoIaix0tF6zjGnOmiNLykGjrEkYGFGRwVbNWrUtN5t/WkU3
+3zKieqEYZA+cy/P5HXjOEeJ/vDsDDv6lfmbPNP9pkCEpiU/jHXz0thB2VzM9UszU/VwmBtdyoSru
+V8/fgEGjmrCnkQ+uMqYfFTB5L4uJWyt536+hvWJeZOB2S+JvqRmE7FrG+5IZsyqQSufKgdEV0TiX
+x/A4PZbhZQocS5XY9fOZHMoiNJNq0xDojefdpWh8XQJDiVIOTF3tIWQ2EZAMeBuOY10cR3+jitAN
+LcG+JAI9SvzdUbztFHjOC/TFCjkQPGvE31SPp7KMF3sKMWgSuFKvIvgtdcwSg88seGMSvGoXuNsE
+DbvnyIHXx47g3l+EM28LT7LXU7UgGUtNPP6LUXh/pI6eEzxvFTglQV1hrBxwFWxjZFMmDzNWMZyu
+Za86NeJuyPagPCWFA+qFFCWmsj1hEfmqNCp7X9Lh4Hu13YSTNqi9DIe6YONhW+RvLDW7kOxw4jpU
+W+FgJ+xqhfzmL6zWdUcGdhofcNQCJSbQnYY8/Wdy6gJkVzxjSc6ZyEBu7QA7TsHWpjCba3xsKH/K
+un13WaO7RlpmsxyY1THN5qK/Am2J0IFS6yHBAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="ClientSide"
+		id="b232837e-b23e-4241-99ea-7130de03415a"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@controlname='ClientSide']"
+		addcaps="form,control,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="TxtIPAddress"
+			id="b3f96c30-23d9-4f94-a9f7-5e2d85466101"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@controlname='ClientSide']/text[@controlname='txtIPAddress']"
+			addcaps="text,control,nativewindow"
+			refimgid="54b9de6e-d664-443b-b2cc-987694896a9a">
+				/form[@controlname='ClientSide']/text[@controlname='txtIPAddress']
+			</item>
+			<item
+			name="BtnConnect"
+			id="8d734e14-6976-4af7-a33c-9a98ecb33b7c"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='ClientSide']/button[@controlname='btnConnect']"
+			addcaps="button,control,nativewindow"
+			refimgid="a094d20a-c178-4173-89d8-582d4f4741b4">
+				/form[@controlname='ClientSide']/button[@controlname='btnConnect']
+			</item>
+			<item
+			name="BtnDisconnect"
+			id="86e28131-88b1-4a46-a23e-40a983dba049"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='ClientSide']/button[@controlname='btnDisconnect']"
+			addcaps="button,control,nativewindow"
+			refimgid="036b04b4-aa2a-402d-a25e-0f7a5356d527">
+				/form[@controlname='ClientSide']/button[@controlname='btnDisconnect']
+			</item>
+			<item
+			name="BtnSend"
+			id="c5b9cef5-31a1-4870-92d0-3e8aedd66b9e"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='ClientSide']/button[@controlname='btnSend']"
+			addcaps="button,control,nativewindow"
+			refimgid="4bec1f9f-ac26-4a05-b75a-10002a69e454">
+				/form[@controlname='ClientSide']/button[@controlname='btnSend']
+			</item>
+			<item
+			name="TxtMessage"
+			id="a07df338-4cd9-4083-80aa-964829132705"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@controlname='ClientSide']/text[@controlname='txtMessage']"
+			addcaps="text,control,nativewindow"
+			refimgid="1077dbb4-80bd-4f1d-b704-dbfd4a830cbd">
+				/form[@controlname='ClientSide']/text[@controlname='txtMessage']
+			</item>
+			<item
+			name="TxtChatScreen"
+			id="2a6e1b84-1634-4fed-8688-bd008a6d6893"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@controlname='ClientSide']/text[@controlname='txtChatScreen']"
+			addcaps="text,control,nativewindow"
+			refimgid="c0197723-762a-4791-8dd0-cc463e6a37b2">
+				/form[@controlname='ClientSide']/text[@controlname='txtChatScreen']
+			</item>
+			<basepath>
+				/form[@controlname='ClientSide']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH2SURBVDhPrdNfSJNhFMfxR1DbCmXm1DLZTdAo
+jOgiIuwiCNMIAiUoFClmWVkJYZoZJpoIaix0tF6zjGnOmiNLykGjrEkYGFGRwVbNWrUtN5t/WkU3
+3zKieqEYZA+cy/P5HXjOEeJ/vDsDDv6lfmbPNP9pkCEpiU/jHXz0thB2VzM9UszU/VwmBtdyoSru
+V8/fgEGjmrCnkQ+uMqYfFTB5L4uJWyt536+hvWJeZOB2S+JvqRmE7FrG+5IZsyqQSufKgdEV0TiX
+x/A4PZbhZQocS5XY9fOZHMoiNJNq0xDojefdpWh8XQJDiVIOTF3tIWQ2EZAMeBuOY10cR3+jitAN
+LcG+JAI9SvzdUbztFHjOC/TFCjkQPGvE31SPp7KMF3sKMWgSuFKvIvgtdcwSg88seGMSvGoXuNsE
+DbvnyIHXx47g3l+EM28LT7LXU7UgGUtNPP6LUXh/pI6eEzxvFTglQV1hrBxwFWxjZFMmDzNWMZyu
+Za86NeJuyPagPCWFA+qFFCWmsj1hEfmqNCp7X9Lh4Hu13YSTNqi9DIe6YONhW+RvLDW7kOxw4jpU
+W+FgJ+xqhfzmL6zWdUcGdhofcNQCJSbQnYY8/Wdy6gJkVzxjSc6ZyEBu7QA7TsHWpjCba3xsKH/K
+un13WaO7RlpmsxyY1THN5qK/Am2J0IFS6yHBAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Error"
+		id="7300c5da-5810-4308-8452-057828ec1fa3"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Error']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Text65535"
+			id="1f734c86-02cd-4f9e-afbf-6e6c7e6611bb"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Error']/text[@controlid='65535']"
+			addcaps="text,nativewindow"
+			refimgid="abaf9eca-d2a5-40a5-a5c2-e81705f30a90">
+				/form[@title='Error']/text[@controlid='65535']
+			</item>
+			<item
+			name="ButtonOK"
+			id="fee9e1f4-7521-4055-b24c-3a80853ab49e"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Error']/button[@text='OK']"
+			addcaps="button,nativewindow"
+			refimgid="c5b8ffd2-c211-41a5-81cb-a2ec53e7e16b">
+				/form[@title='Error']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Error']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJPSURBVDhPpZPbS9NhHIf3l3QRUVIRGQRRdPC4
+cuaFhBVhVwWRBBKUGYFUaMFASwpSOwhlJysqSOpCsCLzkCNtzrk25zxM3aZuc4ffab+nd1ugBtqF
+LzyX38/neb8vr8Gw1tPYauHeGye1LYPUNP/iapOFc+YuTlX3UFr1jZILbRSXv6ao7NkyDp99ivFY
+JYb6l3aaOzSa2jXutMmY30apfhGi6skclc0Bzt/3U3Z3itN1E5w0ezhe4+bINReFFRbWZezCUNdi
+of5dkNvvI1x+NM2ZWx5Kb7o4ccPJ0esOiqvsFF0ZwlRp49ClQYwVVvIvWskq72FDphFDbeMrAsE4
+kZjGgiAcVQlFFIKCuXAaX1DBOyvj8ck4vRK2cYlum5fN23eKgIZWVju6DooKUUlnPppgOqQxFlCx
+un1s2roDw8PnH1ec1xIgKToL8QSzCxpT8xoev8LvKYXe4f8EJESzLIZTzZEEM6J5XDS7phVsEzJd
+ttUCktqaGJZ1QrEE/rDG5JyG26dgn1QYGJX5ahUBW1a4wqK6zqwYTqurOIS6dUymb0Sio3+FgJS6
+mlRPpNWDaXVnSl3hp1um2ynRbkkGZC5fYmrjGsTEvYNL1WfS6v0eiV6XRKc9zqe+fwLELOrfrYfj
+OoHU1lVGk+reRfXvjjhfbDE+9PrYmDR4sOQZRTmSePNwHBEAk/Pg9usMezUGxjR+jKh0OhQ+D8mp
+gPUZ28RfaHhM/sFC8owmcgU5gmxBVr6JA3km9ucWsE+wN6eAPdlpdmelySssYa2f2fAH/tfmti7k
+q9gAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

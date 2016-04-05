@@ -1,0 +1,36 @@
+﻿<testsuite
+name="Demo1"
+rxversion="5.4.6.0"
+id="672d5039-0353-4753-9dd2-36c3858bfa3e"
+reportfilename="%S_%Y%M%D_%T.rxlog"
+reporttemplatefolder=""
+reportxslfilename=""
+placescreenshotsinfolder="True"
+ReportTime="RelativeToTestSuiteStartTime"
+reportwriteinterval="30000ms"
+reportcompress="False"
+enabletracingscreenshots="True"
+TracingScreenshotMode="Foreground"
+TracingScreenshotQuality="40"
+reportlevel="Info;20">
+	<content>
+		<testcase
+		name="TestCase"
+		id="06f69b39-e248-42a2-a447-79216a53a435">
+			<testmodule
+			name="ConnectSuccessful"
+			id="5d92116d-05f7-408a-8099-4f17c138fba5"
+			ref="338cb4df-a9f9-44be-9cca-8acad7024cfc"
+			type="Recording"/>
+		</testcase>
+	</content>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="06f69b39-e248-42a2-a447-79216a53a435"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references/>
+</testsuite>

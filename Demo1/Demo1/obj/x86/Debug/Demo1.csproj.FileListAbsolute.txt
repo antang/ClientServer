@@ -1,0 +1,8 @@
+D:\Form KMS\Test\Test\Demo1\Demo1\bin\Debug\Demo1.rxtmg
+D:\Form KMS\Test\Test\Demo1\Demo1\bin\Debug\Demo1.rxtst
+D:\Form KMS\Test\Test\Demo1\Demo1\bin\Debug\Demo1.exe.config
+D:\Form KMS\Test\Test\Demo1\Demo1\bin\Debug\Demo1.exe
+D:\Form KMS\Test\Test\Demo1\Demo1\bin\Debug\Demo1.pdb
+D:\Form KMS\Test\Test\Demo1\Demo1\obj\x86\Debug\Demo1.csprojResolveAssemblyReference.cache
+D:\Form KMS\Test\Test\Demo1\Demo1\obj\x86\Debug\Demo1.exe
+D:\Form KMS\Test\Test\Demo1\Demo1\obj\x86\Debug\Demo1.pdb
