@@ -1,0 +1,67 @@
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\Test\bin\Debug\ServerTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\Test\bin\Debug\ServerTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\Test\bin\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\Test\bin\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\Test\obj\Debug\ServerTest.csprojResolveAssemblyReference.cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\Test\obj\Debug\ServerTest.MyChatForm.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\Test\obj\Debug\ServerTest.Properties.Resources.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\Test\obj\Debug\ServerTest.csproj.GenerateResource.Cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\Test\obj\Debug\ServerTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\Test\obj\Debug\ServerTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\ServerTest\obj\Debug\ServerTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\ServerTest\obj\Debug\ServerTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\ServerTest\bin\Debug\ServerTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\ServerTest\bin\Debug\ServerTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\ServerTest\bin\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\ServerTest\bin\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\ServerTest\obj\Debug\ServerTest.csprojResolveAssemblyReference.cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\ServerTest\obj\Debug\ServerTest.SendMessageDemo.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\ServerTest\obj\Debug\ServerTest.Properties.Resources.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\ServerTest\obj\Debug\ServerTest.csproj.GenerateResource.Cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage\ServerTest\obj\Debug\ServerTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage\ServerTest\obj\Debug\ServerTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage\ServerTest\bin\Debug\ServerTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage\ServerTest\bin\Debug\ServerTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage\ServerTest\bin\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage\ServerTest\bin\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage\ServerTest\obj\Debug\ServerTest.csprojResolveAssemblyReference.cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage\ServerTest\obj\Debug\ServerTest.SendMessageDemo.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage\ServerTest\obj\Debug\ServerTest.Properties.Resources.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage\ServerTest\obj\Debug\ServerTest.csproj.GenerateResource.Cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage\ServerTest\bin\Debug\ServerTest.exe.config
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.0\ServerTest\bin\Debug\ServerTest.exe.config
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.0\ServerTest\obj\Debug\ServerTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.0\ServerTest\obj\Debug\ServerTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.0\ServerTest\bin\Debug\ServerTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.0\ServerTest\bin\Debug\ServerTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.0\ServerTest\bin\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.0\ServerTest\bin\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.0\ServerTest\obj\Debug\ServerTest.csprojResolveAssemblyReference.cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.0\ServerTest\obj\Debug\ServerTest.SendMessageDemo.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.0\ServerTest\obj\Debug\ServerTest.Properties.Resources.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.0\ServerTest\obj\Debug\ServerTest.csproj.GenerateResource.Cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.1\ServerTest\bin\Debug\ServerTest.exe.config
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.1\ServerTest\obj\Debug\ServerTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.1\ServerTest\obj\Debug\ServerTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.1\ServerTest\bin\Debug\ServerTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.1\ServerTest\bin\Debug\ServerTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.1\ServerTest\bin\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.1\ServerTest\bin\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.1\ServerTest\obj\Debug\ServerTest.csprojResolveAssemblyReference.cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.1\ServerTest\obj\Debug\ServerTest.SendMessageDemo.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.1\ServerTest\obj\Debug\ServerTest.Properties.Resources.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.1\ServerTest\obj\Debug\ServerTest.csproj.GenerateResource.Cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\ServerTest\bin\Debug\ServerTest.exe.config
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\ServerTest\obj\Debug\ServerTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\ServerTest\obj\Debug\ServerTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\ServerTest\bin\Debug\ServerTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\ServerTest\bin\Debug\ServerTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\ServerTest\bin\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\ServerTest\bin\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\ServerTest\obj\Debug\ServerTest.csprojResolveAssemblyReference.cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\ServerTest\obj\Debug\ServerTest.SendMessageDemo.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\ServerTest\obj\Debug\ServerTest.Properties.Resources.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\ServerTest\obj\Debug\ServerTest.csproj.GenerateResource.Cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\CLIENT\ClientTest\bin\Debug\ServerTest.exe.config
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\CLIENT\ClientTest\obj\Debug\ServerTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\CLIENT\ClientTest\obj\Debug\ServerTest.pdb

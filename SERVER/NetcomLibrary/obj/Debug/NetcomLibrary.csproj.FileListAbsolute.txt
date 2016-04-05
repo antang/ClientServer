@@ -1,0 +1,29 @@
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\NetcomLibrary\bin\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\NetcomLibrary\bin\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\NetcomLibrary\obj\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\MSMQ_GSC_SendMessage\NetcomLibrary\obj\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage\NetcomLibrary\bin\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage\NetcomLibrary\bin\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage\NetcomLibrary\obj\Debug\NetcomLibrary.csprojResolveAssemblyReference.cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage\NetcomLibrary\obj\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage\NetcomLibrary\obj\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\NetcomLibrary\bin\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\NetcomLibrary\bin\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\NetcomLibrary\obj\Debug\NetcomLibrary.csprojResolveAssemblyReference.cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\NetcomLibrary\obj\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\NetcomLibrary\obj\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.3\SERVER\NetcomLibrary\obj\Debug\NetcomLibrary.csprojResolveAssemblyReference.cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.3\SERVER\NetcomLibrary\obj\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.3\SERVER\NetcomLibrary\bin\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.3\SERVER\NetcomLibrary\bin\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.3\SERVER\NetcomLibrary\obj\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.6\SERVER\NetcomLibrary\bin\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.6\SERVER\NetcomLibrary\bin\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.6\SERVER\NetcomLibrary\obj\Debug\NetcomLibrary.csprojResolveAssemblyReference.cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.6\SERVER\NetcomLibrary\obj\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.6\SERVER\NetcomLibrary\obj\Debug\NETCOM.pdb
+D:\Topic_Research\GSC_SendMessage\SERVER\NetcomLibrary\bin\Debug\NETCOM.dll
+D:\Topic_Research\GSC_SendMessage\SERVER\NetcomLibrary\bin\Debug\NETCOM.pdb
+D:\Topic_Research\GSC_SendMessage\SERVER\NetcomLibrary\obj\Debug\NetcomLibrary.csprojResolveAssemblyReference.cache
+D:\Topic_Research\GSC_SendMessage\SERVER\NetcomLibrary\obj\Debug\NETCOM.dll
+D:\Topic_Research\GSC_SendMessage\SERVER\NetcomLibrary\obj\Debug\NETCOM.pdb

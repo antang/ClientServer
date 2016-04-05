@@ -1,0 +1,58 @@
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\CLIENT\ClientTest\bin\Debug\ServerTest.exe.config
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\CLIENT\ClientTest\bin\Debug\ServerTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\CLIENT\ClientTest\bin\Debug\ServerTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\CLIENT\ClientTest\bin\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\CLIENT\ClientTest\bin\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\CLIENT\ClientTest\obj\Debug\ClientTest.csprojResolveAssemblyReference.cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\CLIENT\ClientTest\obj\Debug\ServerTest.SendMessageDemo.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\CLIENT\ClientTest\obj\Debug\ServerTest.Properties.Resources.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\CLIENT\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.Cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\CLIENT\ClientTest\obj\Debug\ServerTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.2\CLIENT\ClientTest\obj\Debug\ServerTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.3\CLIENT\ClientTest\bin\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.3\CLIENT\ClientTest\bin\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.3\CLIENT\ClientTest\obj\Debug\ClientTest.csprojResolveAssemblyReference.cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.3\CLIENT\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.Cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.3\CLIENT\ClientTest\obj\Debug\ClientTest.SendMessageDemo.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.3\CLIENT\ClientTest\obj\Debug\ClientTest.Properties.Resources.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.3\CLIENT\ClientTest\bin\Debug\ClientTest.exe.config
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.3\CLIENT\ClientTest\bin\Debug\ClientTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.3\CLIENT\ClientTest\bin\Debug\ClientTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.3\CLIENT\ClientTest\obj\Debug\ClientTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.3\CLIENT\ClientTest\obj\Debug\ClientTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.4\CLIENT\ClientTest\bin\Debug\ClientTest.exe.config
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.4\CLIENT\ClientTest\obj\Debug\ClientTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.4\CLIENT\ClientTest\obj\Debug\ClientTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.5\CLIENT\ClientTest\bin\Debug\ClientTest.exe.config
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.5\CLIENT\ClientTest\obj\Debug\ClientTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.5\CLIENT\ClientTest\obj\Debug\ClientTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.5\CLIENT\ClientTest\bin\Debug\ClientTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.5\CLIENT\ClientTest\bin\Debug\ClientTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.5\CLIENT\ClientTest\bin\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.5\CLIENT\ClientTest\bin\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.5\CLIENT\ClientTest\obj\Debug\ClientTest.csprojResolveAssemblyReference.cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.5\CLIENT\ClientTest\obj\Debug\ClientTest.SendMessageDemo.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.5\CLIENT\ClientTest\obj\Debug\ClientTest.Properties.Resources.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.5\CLIENT\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.Cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.6\CLIENT\ClientTest\bin\Debug\ClientTest.exe.config
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.6\CLIENT\ClientTest\obj\Debug\ClientTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.6\CLIENT\ClientTest\obj\Debug\ClientTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.6\CLIENT\ClientTest\bin\Debug\ClientTest.exe
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.6\CLIENT\ClientTest\bin\Debug\ClientTest.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.6\CLIENT\ClientTest\bin\Debug\NETCOM.dll
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.6\CLIENT\ClientTest\bin\Debug\NETCOM.pdb
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.6\CLIENT\ClientTest\obj\Debug\ClientTest.csprojResolveAssemblyReference.cache
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.6\CLIENT\ClientTest\obj\Debug\ClientTest.SendMessageDemo.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.6\CLIENT\ClientTest\obj\Debug\ClientTest.Properties.Resources.resources
+C:\DATA\TEMP\CAPSTONE 2ND 2015\IMPLEMENTATION\GSC_SendMessage 2.6\CLIENT\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.Cache
+D:\Topic_Research\GSC_SendMessage\CLIENT\ClientTest\bin\Debug\ClientTest.exe.config
+D:\Topic_Research\GSC_SendMessage\CLIENT\ClientTest\obj\Debug\ClientTest.exe
+D:\Topic_Research\GSC_SendMessage\CLIENT\ClientTest\obj\Debug\ClientTest.pdb
+D:\Topic_Research\GSC_SendMessage\CLIENT\ClientTest\bin\Debug\ClientTest.exe
+D:\Topic_Research\GSC_SendMessage\CLIENT\ClientTest\bin\Debug\ClientTest.pdb
+D:\Topic_Research\GSC_SendMessage\CLIENT\ClientTest\bin\Debug\NETCOM.dll
+D:\Topic_Research\GSC_SendMessage\CLIENT\ClientTest\bin\Debug\NETCOM.pdb
+D:\Topic_Research\GSC_SendMessage\CLIENT\ClientTest\obj\Debug\ClientTest.csprojResolveAssemblyReference.cache
+D:\Topic_Research\GSC_SendMessage\CLIENT\ClientTest\obj\Debug\ClientTest.ClientSide.resources
+D:\Topic_Research\GSC_SendMessage\CLIENT\ClientTest\obj\Debug\ClientTest.Properties.Resources.resources
+D:\Topic_Research\GSC_SendMessage\CLIENT\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.Cache
