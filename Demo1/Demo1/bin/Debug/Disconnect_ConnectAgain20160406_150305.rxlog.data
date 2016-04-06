@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3ec69fbfee1c9c6"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="antang"
+		host="SGH052QDSQ"
+		rxversion="5.4.6.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/6/2016 3:03:13 PM"
+		timestampiso="2016-04-06T08:03:13"
+		timeoutfactor="1"
+		module="Disconnect_ConnectAgain">
+		<detail>
+			Disconnect_ConnectAgain
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.300"
+			timeRelativeToTestModuleStartTime="00:00.300"
+			timeWallClock="15:03:13"
+			time="00:00.300"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>var_LinkServer, var_IPServer, var_LinkClient, var_ConnectSuccessful, var_NotifyDisconnect, var_NotifyConnect
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.081"
+			timeRelativeToTestModuleStartTime="00:06.081"
+			timeWallClock="15:03:19"
+			time="00:06.081"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'Demo1Repository.ClientSide.TxtChatScreen' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ClientSide']/text[@controlname='txtChatScreen']"
+				fullname="Demo1Repository.ClientSide.TxtChatScreen"
+				id="2a6e1b8416344fed8688bd008a6d6893"
+				timeout="60000"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\Disconnect_ConnectAgain.cs"
+				codeline="177"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.891"
+			timeRelativeToTestModuleStartTime="00:06.891"
+			timeWallClock="15:03:20"
+			time="00:06.891"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'Demo1Repository.ServerSide.TxtChatScreen' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ServerSide']/text[@controlname='txtChatScreen']"
+				fullname="Demo1Repository.ServerSide.TxtChatScreen"
+				id="35040e31a67d486fa43f63233e5c2746"
+				timeout="60000"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\Disconnect_ConnectAgain.cs"
+				codeline="186"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.749"
+			timeRelativeToTestModuleStartTime="00:07.749"
+			timeWallClock="15:03:21"
+			time="00:07.749"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'Demo1Repository.ClientSide.TxtChatScreen' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ClientSide']/text[@controlname='txtChatScreen']"
+				fullname="Demo1Repository.ClientSide.TxtChatScreen"
+				id="2a6e1b8416344fed8688bd008a6d6893"
+				timeout="60000"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\Disconnect_ConnectAgain.cs"
+				codeline="195"
+				loglvl="Success"/>
+		</item>
+	</activity>
+</report>

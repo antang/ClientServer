@@ -162,13 +162,21 @@ namespace ServerTest
         private void btnSend_Click(object sender, EventArgs e)
         {
            ///<Using SendChatMessage>: use SendChatMessage method to send package (string,...)
-           SendChatMessage(txtMessage.Text.Trim());
-            //append text
-           txtChatScreen.AppendText(strHostName + " : " + txtMessage.Text + "\n");
+            if (txtMessage.Text.Trim() != "")
+            {
+                SendChatMessage(txtMessage.Text.Trim());
+                //append text
+                txtChatScreen.AppendText(strHostName + " : " + txtMessage.Text + "\n");
 
 
-           //Clear text box after click/enter Send button
-           txtMessage.Clear();
+                //Clear text box after click/enter Send button
+                txtMessage.Clear();
+            }
+            else
+            {
+                txtMessage.Clear();
+            }
+           
         }
         //END BUTTON SEND
 
@@ -176,7 +184,22 @@ namespace ServerTest
         //Keydown = Enter
         private void btnSend_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter) btnSend.PerformClick();
+            if (e.Modifiers == Keys.Shift && e.KeyCode == Keys.Enter)
+            {
+                txtMessage.AppendText("\n");
+            }
+            else
+            {
+                if (e.KeyCode == Keys.Enter) 
+                { 
+                    btnSend.PerformClick();
+                    //Remove enter key
+                    string trimText;
+                    trimText = this.txtMessage.Text.Replace("\r\n", "").ToString();
+                    this.txtMessage.Text = trimText;
+                }
+            }
+            
         }
         //END KEYDOWN
 

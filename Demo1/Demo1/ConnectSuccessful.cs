@@ -41,8 +41,8 @@ namespace Demo1
         /// </summary>
         public ConnectSuccessful()
         {
-            var_LinkServer = "D:\\Form KMS\\ClientServer-master\\ClientServer-master\\SERVER\\ServerTest\\bin\\Debug\\ServerTest.exe";
-            var_LinkClient = "D:\\Form KMS\\ClientServer-master\\ClientServer-master\\CLIENT\\ClientTest\\bin\\Debug\\ClientTest.exe";
+            var_LinkServer = "D:\\Topic_Research\\Git\\ClientServer\\SERVER\\ServerTest\\bin\\Debug\\ServerTest.exe";
+            var_LinkClient = "D:\\Topic_Research\\Git\\ClientServer\\CLIENT\\ClientTest\\bin\\Debug\\ClientTest.exe";
             var_IPServer = "";
             var_ConnectSuccessful = "is connecting with you";
         }
@@ -126,7 +126,7 @@ namespace Demo1
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
-            Keyboard.DefaultKeyPressTime = 100;
+            Keyboard.DefaultKeyPressTime = 0;
             Delay.SpeedFactor = 1.0;
 
             Init();
@@ -146,7 +146,7 @@ namespace Demo1
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$var_IPServer' with focus on 'ClientSide.TxtIPAddress'.", repo.ClientSide.TxtIPAddressInfo, new RecordItemIndex(3));
-            repo.ClientSide.TxtIPAddress.PressKeys(var_IPServer);
+            repo.ClientSide.TxtIPAddress.PressKeys(var_IPServer, 100);
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ClientSide.BtnConnect' at Center.", repo.ClientSide.BtnConnectInfo, new RecordItemIndex(4));

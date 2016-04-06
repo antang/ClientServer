@@ -6,3 +6,11 @@ D:\Form KMS\Test\Test\Demo1\Demo1\bin\Debug\Demo1.pdb
 D:\Form KMS\Test\Test\Demo1\Demo1\obj\x86\Debug\Demo1.csprojResolveAssemblyReference.cache
 D:\Form KMS\Test\Test\Demo1\Demo1\obj\x86\Debug\Demo1.exe
 D:\Form KMS\Test\Test\Demo1\Demo1\obj\x86\Debug\Demo1.pdb
+D:\Topic_Research\Git\ClientServer\Demo1\Demo1\bin\Debug\Demo1.rxtmg
+D:\Topic_Research\Git\ClientServer\Demo1\Demo1\bin\Debug\Demo1.rxtst
+D:\Topic_Research\Git\ClientServer\Demo1\Demo1\bin\Debug\Demo1.exe.config
+D:\Topic_Research\Git\ClientServer\Demo1\Demo1\bin\Debug\Demo1.exe
+D:\Topic_Research\Git\ClientServer\Demo1\Demo1\bin\Debug\Demo1.pdb
+D:\Topic_Research\Git\ClientServer\Demo1\Demo1\obj\x86\Debug\Demo1.csprojResolveAssemblyReference.cache
+D:\Topic_Research\Git\ClientServer\Demo1\Demo1\obj\x86\Debug\Demo1.exe
+D:\Topic_Research\Git\ClientServer\Demo1\Demo1\obj\x86\Debug\Demo1.pdb

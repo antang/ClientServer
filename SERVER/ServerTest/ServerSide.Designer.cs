@@ -54,7 +54,7 @@
             this.txtMessage.Multiline = true;
             this.txtMessage.Name = "txtMessage";
             this.txtMessage.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtMessage.Size = new System.Drawing.Size(262, 100);
+            this.txtMessage.Size = new System.Drawing.Size(262, 64);
             this.txtMessage.TabIndex = 1;
             this.txtMessage.AcceptsTabChanged += new System.EventHandler(this.btnSend_Click);
             this.txtMessage.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnSend_KeyDown);
@@ -65,7 +65,7 @@
             this.btnSend.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSend.Location = new System.Drawing.Point(407, 62);
             this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(95, 100);
+            this.btnSend.Size = new System.Drawing.Size(95, 64);
             this.btnSend.TabIndex = 2;
             this.btnSend.Text = "Send";
             this.btnSend.UseVisualStyleBackColor = true;
@@ -76,7 +76,7 @@
             this.lblScreen.AutoSize = true;
             this.lblScreen.Font = new System.Drawing.Font("Verdana", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScreen.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblScreen.Location = new System.Drawing.Point(12, 187);
+            this.lblScreen.Location = new System.Drawing.Point(0, 150);
             this.lblScreen.Name = "lblScreen";
             this.lblScreen.Size = new System.Drawing.Size(133, 20);
             this.lblScreen.TabIndex = 0;
@@ -84,7 +84,7 @@
             // 
             // txtChatScreen
             // 
-            this.txtChatScreen.Location = new System.Drawing.Point(139, 187);
+            this.txtChatScreen.Location = new System.Drawing.Point(139, 150);
             this.txtChatScreen.Multiline = true;
             this.txtChatScreen.Name = "txtChatScreen";
             this.txtChatScreen.ReadOnly = true;
@@ -105,10 +105,10 @@
             // 
             // txt_IPServer
             // 
-            this.txt_IPServer.Enabled = false;
             this.txt_IPServer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_IPServer.Location = new System.Drawing.Point(139, 22);
             this.txt_IPServer.Name = "txt_IPServer";
+            this.txt_IPServer.ReadOnly = true;
             this.txt_IPServer.Size = new System.Drawing.Size(262, 26);
             this.txt_IPServer.TabIndex = 8;
             // 
@@ -118,7 +118,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(510, 356);
+            this.ClientSize = new System.Drawing.Size(508, 319);
             this.Controls.Add(this.txt_IPServer);
             this.Controls.Add(this.lbl_IP);
             this.Controls.Add(this.txtChatScreen);
@@ -128,7 +128,6 @@
             this.Controls.Add(this.lblMessage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "ServerSide";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SERVER Side - [Send Message Demo]";

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8a7cbf2a94362e8"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="antang"
+		host="SGH052QDSQ"
+		rxversion="5.4.6.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/6/2016 1:22:29 PM"
+		timestampiso="2016-04-06T06:22:29"
+		timeoutfactor="1"
+		module="ConnectSuccessful">
+		<detail>
+			ConnectSuccessful
+		</detail>
+		<errmsg>
+			Failed to run application 'D:\Form KMS\ClientServer-master\ClientServer-master\SERVER\ServerTest\bin\Debug\ServerTest.exe'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.287"
+			timeRelativeToTestModuleStartTime="00:00.290"
+			timeWallClock="13:22:29"
+			time="00:00.287"
+			level="Warn"
+			category="Data"
+			errimg=".\ConnectSuccessful20160406_132224_57715424_trace.jpg"
+			errthumb=".\ConnectSuccessful20160406_132224_57715424_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>var_LinkServer, var_LinkClient, var_IPServer, var_ConnectSuccessful
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.306"
+			timeRelativeToTestModuleStartTime="00:00.309"
+			timeWallClock="13:22:29"
+			time="00:00.306"
+			level="Info"
+			category="Application"
+			errimg=".\ConnectSuccessful20160406_132224_57715424_trace.jpg"
+			errthumb=".\ConnectSuccessful20160406_132224_57715424_trace_thumb.jpg">
+			<message>
+				Run Server<br/>Run application with file name from variable $var_LinkServer with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
+				codeline="135"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.348"
+			timeRelativeToTestModuleStartTime="00:00.350"
+			timeWallClock="13:22:29"
+			time="00:00.348"
+			level="Error"
+			category="Module"
+			errimg=".\ConnectSuccessful20160406_132224_57715424_trace.jpg"
+			errthumb=".\ConnectSuccessful20160406_132224_57715424_trace_thumb.jpg">
+			<message>
+				Failed to run application 'D:\Form KMS\ClientServer-master\ClientServer-master\SERVER\ServerTest\bin\Debug\ServerTest.exe'.<br/>The system cannot find the file specified
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized)
+   at Demo1.ConnectSuccessful.Ranorex.Core.Testing.ITestModule.Run() in d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs:line 136
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
+				codeline="136"
+				loglvl="Error"
+				itemindex="0"/>
+		</item>
+	</activity>
+</report>

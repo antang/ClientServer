@@ -171,12 +171,20 @@ namespace ClientTest
         public void btnSend_Click(object sender, EventArgs e)
         {
            ///<Using SendChatMessage>: use SendChatMessage method to send package (string,...)
-           SendChatMessage(txtMessage.Text.Trim());
-           //append text
-           txtChatScreen.AppendText(strHostName + " : " + txtMessage.Text + "\n");
+            if (txtMessage.Text.Trim() != "")
+            {
+                SendChatMessage(txtMessage.Text.Trim());
+                //append text
+                txtChatScreen.AppendText(strHostName + " : " + txtMessage.Text + "\n");
 
-           //Clear text box after click/enter Send button
-           txtMessage.Clear();
+                //Clear text box after click/enter Send button
+                txtMessage.Clear();
+            }
+            else
+            {
+                txtMessage.Clear();
+            }
+           
         }
         //END BUTTON SEND
 
@@ -188,7 +196,29 @@ namespace ClientTest
         }
         public void btnSend_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter) btnSend.PerformClick();
+            if (e.Modifiers == Keys.Shift && e.KeyCode == Keys.Enter)
+            {
+                txtMessage.AppendText("\n");
+            }
+            else
+            {
+                if (e.KeyCode == Keys.Enter)
+                {
+                    btnSend.PerformClick();
+                    //remove enter key
+                    string trimText;
+                    trimText = this.txtMessage.Text.Replace("\r\n", "").ToString();
+                    this.txtMessage.Text = trimText;
+                    txtMessage.Refresh();
+                }
+            }
+            //if (e.KeyCode == Keys.Enter) btnSend.PerformClick();
+        }
+        //only input IP
+        private void txtIPAddress_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+            if (e.KeyChar.ToString() == ".") e.Handled = false;
         }
         //END KEYDOWN
 

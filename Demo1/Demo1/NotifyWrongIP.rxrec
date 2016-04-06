@@ -29,7 +29,7 @@ mode="Global">
 		<var
 		name="var_LinkServer"
 		id="e8d3fdb9-c206-40a6-bb1c-71004e1425d6">
-			D:\Form KMS\ClientServer-master\ClientServer-master\SERVER\ServerTest\bin\Debug\ServerTest.exe
+			D:\Topic_Research\Git\ClientServer\SERVER\ServerTest\bin\Debug\ServerTest.exe
 		</var>
 		<var
 		name="var_IPServer"
@@ -38,7 +38,7 @@ mode="Global">
 		<var
 		name="var_LinkClient"
 		id="39bdb3b3-11c7-419c-94ad-0e170af5d083">
-			D:\Form KMS\ClientServer-master\ClientServer-master\CLIENT\ClientTest\bin\Debug\ClientTest.exe
+			D:\Topic_Research\Git\ClientServer\CLIENT\ClientTest\bin\Debug\ClientTest.exe
 		</var>
 		<var
 		name="var_ConnectSuccessful"

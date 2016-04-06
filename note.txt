@@ -3,5 +3,3 @@
 3. disconnect and connect again
 4. server send message to client
 5. Client send message to server
-IP Address is invalid or the other side is not accessable!
-IP Address is invalid or the other side is not accessable!

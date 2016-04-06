@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.6.0"
+id="5f12c41d-dd78-44ca-8cd6-1b501a683dad"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		ServerSendMessage
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ServerSendMessage"
+	namespace="Demo1"/>
+	<variables/>
+	<recorditems/>
+	<repository
+	name="Demo1Repository"
+	id="458da9a2-5117-4768-97bf-8b9ba5b599da"
+	rxversion="5.4.6.0"
+	relativepath="Demo1Repository.rxrep">
+		<codegen
+		classname="Demo1Repository"
+		namespace="Demo1"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="ded4aa9c-34c5-405c-81f3-68ac8d976552"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ServerSendMessage.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

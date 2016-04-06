@@ -60,6 +60,7 @@
             this.txtIPAddress.TabIndex = 0;
             this.txtIPAddress.AcceptsTabChanged += new System.EventHandler(this.btnConnect_Click);
             this.txtIPAddress.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnConnect_KeyDown);
+            this.txtIPAddress.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtIPAddress_KeyPress);
             // 
             // btnConnect
             // 

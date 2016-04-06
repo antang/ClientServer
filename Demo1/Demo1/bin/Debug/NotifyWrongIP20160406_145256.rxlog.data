@@ -5,22 +5,22 @@
 		duration="0ms"
 		durationms="0"
 		type="root"
-		rid="19b28381d6d36cca"
+		rid="105b3aab4714d90a"
 		totalerrorcount="0"
 		totalwarningcount="1"
 		totalsuccesscount="0"
 		totalfailedcount="0"
 		totalblockedcount="0"
-		user="TNA"
-		host="TNA-PC"
+		user="antang"
+		host="SGH052QDSQ"
 		rxversion="5.4.6.0"
-		osversion="Windows 7 Service Pack 1 64bit"
-		runtimeversion="4.0.30319.18408"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
 		procarch="32bit"
 		language="en-US"
-		screenresolution="1600x900"
-		timestamp="2016-04-06 12:03:14 AM"
-		timestampiso="2016-04-05T17:03:14"
+		screenresolution="1920x1080"
+		timestamp="4/6/2016 2:53:01 PM"
+		timestampiso="2016-04-06T07:53:01"
 		timeoutfactor="1"
 		module="NotifyWrongIP">
 		<detail>
@@ -28,10 +28,10 @@
 		</detail>
 		<varbindings/>
 		<item
-			timeRelativeToTestSuiteStartTime="00:00.303"
-			timeRelativeToTestModuleStartTime="00:00.304"
-			timeWallClock="00:03:14"
-			time="00:00.303"
+			timeRelativeToTestSuiteStartTime="00:00.221"
+			timeRelativeToTestModuleStartTime="00:00.222"
+			timeWallClock="14:53:01"
+			time="00:00.221"
 			level="Warn"
 			category="Data">
 			<message>
@@ -41,10 +41,10 @@
 				loglvl="Warn"/>
 		</item>
 		<item
-			timeRelativeToTestSuiteStartTime="00:00.326"
-			timeRelativeToTestModuleStartTime="00:00.327"
-			timeWallClock="00:03:14"
-			time="00:00.326"
+			timeRelativeToTestSuiteStartTime="00:00.248"
+			timeRelativeToTestModuleStartTime="00:00.248"
+			timeWallClock="14:53:01"
+			time="00:00.248"
 			level="Info"
 			category="Application">
 			<message>
@@ -52,15 +52,15 @@
 			</message>
 			<metainfo
 				itemindex="0"
-				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\NotifyWrongIP.cs"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\NotifyWrongIP.cs"
 				codeline="148"
 				loglvl="Info"/>
 		</item>
 		<item
-			timeRelativeToTestSuiteStartTime="00:00.361"
-			timeRelativeToTestModuleStartTime="00:00.362"
-			timeWallClock="00:03:14"
-			time="00:00.361"
+			timeRelativeToTestSuiteStartTime="00:00.522"
+			timeRelativeToTestModuleStartTime="00:00.522"
+			timeWallClock="14:53:02"
+			time="00:00.522"
 			level="Info"
 			category="Keyboard">
 			<message>
@@ -72,16 +72,16 @@
 				fullname="Demo1Repository.ClientSide.TxtIPAddress"
 				id="b3f96c3023d94f94a9f75e2d85466101"
 				timeout="60000"
-				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\NotifyWrongIP.cs"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\NotifyWrongIP.cs"
 				codeline="152"
 				itemindex="1"
 				loglvl="Info"/>
 		</item>
 		<item
-			timeRelativeToTestSuiteStartTime="00:02.295"
-			timeRelativeToTestModuleStartTime="00:02.296"
-			timeWallClock="00:03:16"
-			time="00:02.295"
+			timeRelativeToTestSuiteStartTime="00:02.229"
+			timeRelativeToTestModuleStartTime="00:02.230"
+			timeWallClock="14:53:03"
+			time="00:02.229"
 			level="Info"
 			category="Mouse">
 			<message>
@@ -93,16 +93,16 @@
 				fullname="Demo1Repository.ClientSide.BtnConnect"
 				id="8d734e1469764af7a33c9a98ecb33b7c"
 				timeout="60000"
-				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\NotifyWrongIP.cs"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\NotifyWrongIP.cs"
 				codeline="156"
 				itemindex="2"
 				loglvl="Info"/>
 		</item>
 		<item
-			timeRelativeToTestSuiteStartTime="00:03.138"
-			timeRelativeToTestModuleStartTime="00:03.139"
-			timeWallClock="00:03:17"
-			time="00:03.138"
+			timeRelativeToTestSuiteStartTime="00:03.004"
+			timeRelativeToTestModuleStartTime="00:03.005"
+			timeWallClock="14:53:04"
+			time="00:03.004"
 			level="Info"
 			category="Validation">
 			<message>
@@ -114,16 +114,16 @@
 				fullname="Demo1Repository.Error.Text65535"
 				id="1f734c8602cd4f9eafbf6e6c7e6611bb"
 				timeout="60000"
-				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\NotifyWrongIP.cs"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\NotifyWrongIP.cs"
 				codeline="160"
 				itemindex="3"
 				loglvl="Info"/>
 		</item>
 		<item
-			timeRelativeToTestSuiteStartTime="00:03.419"
-			timeRelativeToTestModuleStartTime="00:03.420"
-			timeWallClock="00:03:17"
-			time="00:03.419"
+			timeRelativeToTestSuiteStartTime="00:03.298"
+			timeRelativeToTestModuleStartTime="00:03.299"
+			timeWallClock="14:53:04"
+			time="00:03.298"
 			level="Success"
 			category="Validation">
 			<message>
@@ -135,16 +135,16 @@
 				fullname="Demo1Repository.Error.Text65535"
 				id="1f734c8602cd4f9eafbf6e6c7e6611bb"
 				timeout="60000"
-				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\NotifyWrongIP.cs"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\NotifyWrongIP.cs"
 				codeline="161"
 				loglvl="Success"
 				itemindex="3"/>
 		</item>
 		<item
-			timeRelativeToTestSuiteStartTime="00:03.424"
-			timeRelativeToTestModuleStartTime="00:03.425"
-			timeWallClock="00:03:17"
-			time="00:03.424"
+			timeRelativeToTestSuiteStartTime="00:03.300"
+			timeRelativeToTestModuleStartTime="00:03.301"
+			timeWallClock="14:53:04"
+			time="00:03.300"
 			level="Info"
 			category="Mouse">
 			<message>
@@ -156,16 +156,16 @@
 				fullname="Demo1Repository.Error.ButtonOK"
 				id="fee9e1f475214055b24c3a80853ab49e"
 				timeout="60000"
-				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\NotifyWrongIP.cs"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\NotifyWrongIP.cs"
 				codeline="164"
 				itemindex="4"
 				loglvl="Info"/>
 		</item>
 		<item
-			timeRelativeToTestSuiteStartTime="00:04.163"
-			timeRelativeToTestModuleStartTime="00:04.164"
-			timeWallClock="00:03:18"
-			time="00:04.163"
+			timeRelativeToTestSuiteStartTime="00:03.964"
+			timeRelativeToTestModuleStartTime="00:03.965"
+			timeWallClock="14:53:05"
+			time="00:03.964"
 			level="Info"
 			category="Application">
 			<message>
@@ -177,7 +177,7 @@
 				fullname="Demo1Repository.ClientSide.Self"
 				id="b232837eb23e424199ea7130de03415a"
 				timeout="30000"
-				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\NotifyWrongIP.cs"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\NotifyWrongIP.cs"
 				codeline="168"
 				itemindex="5"
 				loglvl="Info"/>

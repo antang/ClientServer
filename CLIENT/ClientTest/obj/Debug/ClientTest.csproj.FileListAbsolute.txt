@@ -56,3 +56,14 @@ D:\Topic_Research\GSC_SendMessage\CLIENT\ClientTest\obj\Debug\ClientTest.csprojR
 D:\Topic_Research\GSC_SendMessage\CLIENT\ClientTest\obj\Debug\ClientTest.ClientSide.resources
 D:\Topic_Research\GSC_SendMessage\CLIENT\ClientTest\obj\Debug\ClientTest.Properties.Resources.resources
 D:\Topic_Research\GSC_SendMessage\CLIENT\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.Cache
+D:\Topic_Research\Git\ClientServer\CLIENT\ClientTest\bin\Debug\ClientTest.exe.config
+D:\Topic_Research\Git\ClientServer\CLIENT\ClientTest\obj\Debug\ClientTest.exe
+D:\Topic_Research\Git\ClientServer\CLIENT\ClientTest\obj\Debug\ClientTest.pdb
+D:\Topic_Research\Git\ClientServer\CLIENT\ClientTest\bin\Debug\ClientTest.exe
+D:\Topic_Research\Git\ClientServer\CLIENT\ClientTest\bin\Debug\ClientTest.pdb
+D:\Topic_Research\Git\ClientServer\CLIENT\ClientTest\bin\Debug\NETCOM.dll
+D:\Topic_Research\Git\ClientServer\CLIENT\ClientTest\bin\Debug\NETCOM.pdb
+D:\Topic_Research\Git\ClientServer\CLIENT\ClientTest\obj\Debug\ClientTest.csprojResolveAssemblyReference.cache
+D:\Topic_Research\Git\ClientServer\CLIENT\ClientTest\obj\Debug\ClientTest.ClientSide.resources
+D:\Topic_Research\Git\ClientServer\CLIENT\ClientTest\obj\Debug\ClientTest.Properties.Resources.resources
+D:\Topic_Research\Git\ClientServer\CLIENT\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.Cache

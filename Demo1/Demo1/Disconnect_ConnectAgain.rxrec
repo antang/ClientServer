@@ -1,12 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 rxversion="5.4.6.0"
-id="338cb4df-a9f9-44be-9cca-8acad7024cfc"
+id="0e496d5f-6086-4bc2-9aa7-e3d8890d3222"
 embeddedrepository="false"
 mode="Global">
 	<name>
-		ConnectSuccessful
+		Disconnect_ConnectAgain
 	</name>
+	<description>
+		The Disconnect_ConnectAgain recording.
+	</description>
 	<repeatcount>
 		1
 	</repeatcount>
@@ -20,30 +23,40 @@ mode="Global">
 		1
 	</speedfactor>
 	<useDefaultItemLogging>
-		True
+		False
 	</useDefaultItemLogging>
 	<codegen
-	classname="ConnectSuccessful"
+	classname="Disconnect_ConnectAgain"
 	namespace="Demo1"/>
 	<variables>
 		<var
 		name="var_LinkServer"
-		id="de8fa027-ef45-42ff-b621-54d22b0e94f4">
+		id="05fc8f0f-8f50-4721-8bd7-6e08ac4cbdba">
 			D:\Topic_Research\Git\ClientServer\SERVER\ServerTest\bin\Debug\ServerTest.exe
 		</var>
 		<var
+		name="var_IPServer"
+		id="437b133f-575e-4336-a534-89dc8d5ca061">
+		</var>
+		<var
 		name="var_LinkClient"
-		id="e9b78944-b7b0-437e-9744-f5979c404811">
+		id="821efa29-7f14-4c9b-8f81-fbfd13a18e2c">
 			D:\Topic_Research\Git\ClientServer\CLIENT\ClientTest\bin\Debug\ClientTest.exe
 		</var>
 		<var
-		name="var_IPServer"
-		id="1e11d2ed-902c-46b6-ac15-ae3e72a533a2">
+		name="var_ConnectSuccessful"
+		id="bdbc5988-ace7-4a85-96e7-63bae05cc8f5">
+			is connecting with you
 		</var>
 		<var
-		name="var_ConnectSuccessful"
-		id="6463e68e-f3b2-46f4-acc1-71c6636ce1cb">
-			is connecting with you
+		name="var_NotifyDisconnect"
+		id="9c142676-912a-474b-bdad-8b8624a52da6">
+			Agent disconnected !
+		</var>
+		<var
+		name="var_NotifyConnect"
+		id="5203732e-df2b-4346-8317-c95c9c206d4c">
+			New agent received...
 		</var>
 	</variables>
 	<recorditems>
@@ -124,6 +137,136 @@ mode="Global">
 				</path>
 			</info>
 		</keysequenceitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="dfaa4fb1-0843-4612-b126-1d3f0e59238c"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="8d734e14-6976-4af7-a33c-9a98ecb33b7c">
+				<path>
+					/form[@controlname='ClientSide']/button[@controlname='btnConnect']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="0bceefcf-f646-4677-b74c-7a1d48b8fe46"
+		action="AttributeContains">
+			<comment/>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="var_ConnectSuccessful"/>
+			</bindings>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="2a6e1b84-1634-4fed-8688-bd008a6d6893">
+				<path>
+					/form[@controlname='ClientSide']/text[@controlname='txtChatScreen']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="c0fb5139-92e2-47a9-bb70-383cbb59c104"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="86e28131-88b1-4a46-a23e-40a983dba049">
+				<path>
+					/form[@controlname='ClientSide']/button[@controlname='btnDisconnect']
+				</path>
+			</info>
+		</mouseitem>
+		<invokeactionrecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="102e9da1-638b-492b-9a61-3177bc343566"
+		action="Activate"
+		actiontype="Adaptor"
+		varname="">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="39fe45d1-9017-42c5-9647-834a554cede2">
+				<path>
+					/form[@controlname='ServerSide']
+				</path>
+			</info>
+			<arguments
+			id="02028bf3-e23a-450f-8519-5b8e40df0f78"/>
+		</invokeactionrecorditem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="0ff354a7-9867-4122-9983-a1a0febf9f6f"
+		action="AttributeContains">
+			<comment/>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="var_NotifyConnect"/>
+			</bindings>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="35040e31-a67d-486f-a43f-63233e5c2746">
+				<path>
+					/form[@controlname='ServerSide']/text[@controlname='txtChatScreen']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<invokeactionrecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="399156ea-9f2d-47f6-aeec-7863269a7768"
+		action="Activate"
+		actiontype="Adaptor"
+		varname="">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="b232837e-b23e-4241-99ea-7130de03415a">
+				<path>
+					/form[@controlname='ClientSide']
+				</path>
+			</info>
+			<arguments
+			id="806d2e91-a4ea-4447-8104-94c991bb82e9"/>
+		</invokeactionrecorditem>
 		<mouseitem
 		enabled="True"
 		optional="False"
@@ -1921,7 +2064,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		ConnectSuccessful.UserCode.cs
+		Disconnect_ConnectAgain.UserCode.cs
 	</usercodefile>
 	<references/>
 </recordtable>

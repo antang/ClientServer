@@ -24,34 +24,35 @@ namespace Demo1
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The NotifyWrongIP recording.
+    ///The Disconnect_ConnectAgain recording.
     /// </summary>
-    [TestModule("006ee940-e0ef-40ab-8f1e-610f33a90cc9", ModuleType.Recording, 1)]
-    public partial class NotifyWrongIP : ITestModule
+    [TestModule("0e496d5f-6086-4bc2-9aa7-e3d8890d3222", ModuleType.Recording, 1)]
+    public partial class Disconnect_ConnectAgain : ITestModule
     {
         /// <summary>
         /// Holds an instance of the Demo1Repository repository.
         /// </summary>
         public static Demo1Repository repo = Demo1Repository.Instance;
 
-        static NotifyWrongIP instance = new NotifyWrongIP();
+        static Disconnect_ConnectAgain instance = new Disconnect_ConnectAgain();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public NotifyWrongIP()
+        public Disconnect_ConnectAgain()
         {
             var_LinkServer = "D:\\Topic_Research\\Git\\ClientServer\\SERVER\\ServerTest\\bin\\Debug\\ServerTest.exe";
             var_IPServer = "";
             var_LinkClient = "D:\\Topic_Research\\Git\\ClientServer\\CLIENT\\ClientTest\\bin\\Debug\\ClientTest.exe";
             var_ConnectSuccessful = "is connecting with you";
-            var_Message = "IP Address is invalid or the other side is not accessable!";
+            var_NotifyDisconnect = "Agent disconnected !";
+            var_NotifyConnect = "New agent received...";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static NotifyWrongIP Instance
+        public static Disconnect_ConnectAgain Instance
         {
             get { return instance; }
         }
@@ -63,7 +64,7 @@ namespace Demo1
         /// <summary>
         /// Gets or sets the value of variable var_LinkServer.
         /// </summary>
-        [TestVariable("e8d3fdb9-c206-40a6-bb1c-71004e1425d6")]
+        [TestVariable("05fc8f0f-8f50-4721-8bd7-6e08ac4cbdba")]
         public string var_LinkServer
         {
             get { return _var_LinkServer; }
@@ -75,7 +76,7 @@ namespace Demo1
         /// <summary>
         /// Gets or sets the value of variable var_IPServer.
         /// </summary>
-        [TestVariable("14cb10be-71c1-4153-a2ee-c982d81a5918")]
+        [TestVariable("437b133f-575e-4336-a534-89dc8d5ca061")]
         public string var_IPServer
         {
             get { return _var_IPServer; }
@@ -87,7 +88,7 @@ namespace Demo1
         /// <summary>
         /// Gets or sets the value of variable var_LinkClient.
         /// </summary>
-        [TestVariable("39bdb3b3-11c7-419c-94ad-0e170af5d083")]
+        [TestVariable("821efa29-7f14-4c9b-8f81-fbfd13a18e2c")]
         public string var_LinkClient
         {
             get { return _var_LinkClient; }
@@ -99,23 +100,35 @@ namespace Demo1
         /// <summary>
         /// Gets or sets the value of variable var_ConnectSuccessful.
         /// </summary>
-        [TestVariable("8100a788-14b3-4584-910f-bc528d8e01fa")]
+        [TestVariable("bdbc5988-ace7-4a85-96e7-63bae05cc8f5")]
         public string var_ConnectSuccessful
         {
             get { return _var_ConnectSuccessful; }
             set { _var_ConnectSuccessful = value; }
         }
 
-        string _var_Message;
+        string _var_NotifyDisconnect;
 
         /// <summary>
-        /// Gets or sets the value of variable var_Message.
+        /// Gets or sets the value of variable var_NotifyDisconnect.
         /// </summary>
-        [TestVariable("e8e82fab-f5ee-4179-9d02-daa9d2cd33b6")]
-        public string var_Message
+        [TestVariable("9c142676-912a-474b-bdad-8b8624a52da6")]
+        public string var_NotifyDisconnect
         {
-            get { return _var_Message; }
-            set { _var_Message = value; }
+            get { return _var_NotifyDisconnect; }
+            set { _var_NotifyDisconnect = value; }
+        }
+
+        string _var_NotifyConnect;
+
+        /// <summary>
+        /// Gets or sets the value of variable var_NotifyConnect.
+        /// </summary>
+        [TestVariable("5203732e-df2b-4346-8317-c95c9c206d4c")]
+        public string var_NotifyConnect
+        {
+            get { return _var_NotifyConnect; }
+            set { _var_NotifyConnect = value; }
         }
 
 #endregion
@@ -144,28 +157,47 @@ namespace Demo1
 
             Init();
 
+            // Run Server
+            Host.Local.RunApplication(var_LinkServer, "", "D:\\Form KMS\\ClientServer-master\\ClientServer-master\\SERVER\\ServerTest\\bin\\Debug", false);
+            Delay.Milliseconds(0);
+            
+            var_IPServer = repo.ServerSide.TxtIPServer.Element.GetAttributeValueText("Text");
+            Delay.Milliseconds(0);
+            
             // Run Client
-            Report.Log(ReportLevel.Info, "Application", "Run Client\r\nRun application with file name from variable $var_LinkClient with arguments '' in normal mode.", new RecordItemIndex(0));
             Host.Local.RunApplication(var_LinkClient, "", "D:\\Form KMS\\ClientServer-master\\ClientServer-master\\CLIENT\\ClientTest\\bin\\Debug", false);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '' with focus on 'ClientSide.TxtIPAddress'.", repo.ClientSide.TxtIPAddressInfo, new RecordItemIndex(1));
-            repo.ClientSide.TxtIPAddress.PressKeys("", 100);
+            repo.ClientSide.TxtIPAddress.PressKeys(var_IPServer, 100);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ClientSide.BtnConnect' at Center.", repo.ClientSide.BtnConnectInfo, new RecordItemIndex(2));
             repo.ClientSide.BtnConnect.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text=$var_Message) on item 'Error.Text65535'.", repo.Error.Text65535Info, new RecordItemIndex(3));
-            Validate.Attribute(repo.Error.Text65535Info, "Text", var_Message);
+            Validate.Attribute(repo.ClientSide.TxtChatScreenInfo, "Text", new Regex(Regex.Escape(var_ConnectSuccessful)));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Error.ButtonOK' at Center.", repo.Error.ButtonOKInfo, new RecordItemIndex(4));
-            repo.Error.ButtonOK.Click();
+            repo.ClientSide.BtnDisconnect.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Application", "Killing application containing item 'ClientSide'.", repo.ClientSide.SelfInfo, new RecordItemIndex(5));
+            repo.ServerSide.Self.Activate();
+            Delay.Milliseconds(0);
+            
+            Validate.Attribute(repo.ServerSide.TxtChatScreenInfo, "Text", new Regex(Regex.Escape(var_NotifyConnect)));
+            Delay.Milliseconds(0);
+            
+            repo.ClientSide.Self.Activate();
+            Delay.Milliseconds(0);
+            
+            repo.ClientSide.BtnConnect.Click();
+            Delay.Milliseconds(200);
+            
+            Validate.Attribute(repo.ClientSide.TxtChatScreenInfo, "Text", new Regex(Regex.Escape(var_ConnectSuccessful)));
+            Delay.Milliseconds(0);
+            
+            Host.Local.KillApplication(repo.ServerSide.Self);
+            Delay.Milliseconds(0);
+            
             Host.Local.KillApplication(repo.ClientSide.Self);
             Delay.Milliseconds(0);
             

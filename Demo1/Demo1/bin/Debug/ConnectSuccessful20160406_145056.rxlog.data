@@ -5,33 +5,33 @@
 		duration="0ms"
 		durationms="0"
 		type="root"
-		rid="1c51822f02a5cbde"
+		rid="46f81bc3f4276ae"
 		totalerrorcount="0"
 		totalwarningcount="1"
 		totalsuccesscount="0"
 		totalfailedcount="0"
 		totalblockedcount="0"
-		user="TNA"
-		host="TNA-PC"
+		user="antang"
+		host="SGH052QDSQ"
 		rxversion="5.4.6.0"
-		osversion="Windows 7 Service Pack 1 64bit"
-		runtimeversion="4.0.30319.18408"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
 		procarch="32bit"
 		language="en-US"
-		screenresolution="1600x900"
-		timestamp="2016-04-05 11:22:54 PM"
-		timestampiso="2016-04-05T16:22:54"
+		screenresolution="1920x1080"
+		timestamp="4/6/2016 2:51:02 PM"
+		timestampiso="2016-04-06T07:51:02"
 		timeoutfactor="1"
-		module="ConnectSuccessfull">
+		module="ConnectSuccessful">
 		<detail>
-			ConnectSuccessfull
+			ConnectSuccessful
 		</detail>
 		<varbindings/>
 		<item
-			timeRelativeToTestSuiteStartTime="00:00.504"
-			timeRelativeToTestModuleStartTime="00:00.504"
-			timeWallClock="23:22:54"
-			time="00:00.504"
+			timeRelativeToTestSuiteStartTime="00:00.327"
+			timeRelativeToTestModuleStartTime="00:00.328"
+			timeWallClock="14:51:03"
+			time="00:00.327"
 			level="Warn"
 			category="Data">
 			<message>
@@ -41,10 +41,10 @@
 				loglvl="Warn"/>
 		</item>
 		<item
-			timeRelativeToTestSuiteStartTime="00:00.545"
-			timeRelativeToTestModuleStartTime="00:00.545"
-			timeWallClock="23:22:54"
-			time="00:00.545"
+			timeRelativeToTestSuiteStartTime="00:00.365"
+			timeRelativeToTestModuleStartTime="00:00.366"
+			timeWallClock="14:51:03"
+			time="00:00.365"
 			level="Info"
 			category="Application">
 			<message>
@@ -52,15 +52,15 @@
 			</message>
 			<metainfo
 				itemindex="0"
-				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
 				codeline="135"
 				loglvl="Info"/>
 		</item>
 		<item
-			timeRelativeToTestSuiteStartTime="00:00.593"
-			timeRelativeToTestModuleStartTime="00:00.593"
-			timeWallClock="23:22:54"
-			time="00:00.593"
+			timeRelativeToTestSuiteStartTime="00:00.793"
+			timeRelativeToTestModuleStartTime="00:00.794"
+			timeWallClock="14:51:03"
+			time="00:00.793"
 			level="Info"
 			category="Get Value">
 			<message>
@@ -72,16 +72,16 @@
 				fullname="Demo1Repository.ServerSide.TxtIPServer"
 				id="0300e711cd5b4084b10929b1d22d4d58"
 				timeout="60000"
-				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
 				codeline="139"
 				itemindex="1"
 				loglvl="Info"/>
 		</item>
 		<item
-			timeRelativeToTestSuiteStartTime="00:01.847"
-			timeRelativeToTestModuleStartTime="00:01.847"
-			timeWallClock="23:22:56"
-			time="00:01.847"
+			timeRelativeToTestSuiteStartTime="00:02.070"
+			timeRelativeToTestModuleStartTime="00:02.071"
+			timeWallClock="14:51:04"
+			time="00:02.070"
 			level="Info"
 			category="Application">
 			<message>
@@ -89,15 +89,15 @@
 			</message>
 			<metainfo
 				itemindex="2"
-				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
 				codeline="144"
 				loglvl="Info"/>
 		</item>
 		<item
-			timeRelativeToTestSuiteStartTime="00:01.855"
-			timeRelativeToTestModuleStartTime="00:01.855"
-			timeWallClock="23:22:56"
-			time="00:01.855"
+			timeRelativeToTestSuiteStartTime="00:02.379"
+			timeRelativeToTestModuleStartTime="00:02.380"
+			timeWallClock="14:51:05"
+			time="00:02.379"
 			level="Info"
 			category="Keyboard">
 			<message>
@@ -109,16 +109,16 @@
 				fullname="Demo1Repository.ClientSide.TxtIPAddress"
 				id="b3f96c3023d94f94a9f75e2d85466101"
 				timeout="60000"
-				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
 				codeline="148"
 				itemindex="3"
 				loglvl="Info"/>
 		</item>
 		<item
-			timeRelativeToTestSuiteStartTime="00:04.443"
-			timeRelativeToTestModuleStartTime="00:04.443"
-			timeWallClock="23:22:58"
-			time="00:04.443"
+			timeRelativeToTestSuiteStartTime="00:04.887"
+			timeRelativeToTestModuleStartTime="00:04.888"
+			timeWallClock="14:51:07"
+			time="00:04.887"
 			level="Info"
 			category="Mouse">
 			<message>
@@ -130,16 +130,16 @@
 				fullname="Demo1Repository.ClientSide.BtnConnect"
 				id="8d734e1469764af7a33c9a98ecb33b7c"
 				timeout="60000"
-				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
 				codeline="152"
 				itemindex="4"
 				loglvl="Info"/>
 		</item>
 		<item
-			timeRelativeToTestSuiteStartTime="00:05.269"
-			timeRelativeToTestModuleStartTime="00:05.269"
-			timeWallClock="23:22:59"
-			time="00:05.269"
+			timeRelativeToTestSuiteStartTime="00:05.647"
+			timeRelativeToTestModuleStartTime="00:05.648"
+			timeWallClock="14:51:08"
+			time="00:05.647"
 			level="Info"
 			category="Validation">
 			<message>
@@ -151,16 +151,16 @@
 				fullname="Demo1Repository.ClientSide.TxtChatScreen"
 				id="2a6e1b8416344fed8688bd008a6d6893"
 				timeout="60000"
-				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
 				codeline="156"
 				itemindex="5"
 				loglvl="Info"/>
 		</item>
 		<item
-			timeRelativeToTestSuiteStartTime="00:05.454"
-			timeRelativeToTestModuleStartTime="00:05.454"
-			timeWallClock="23:22:59"
-			time="00:05.454"
+			timeRelativeToTestSuiteStartTime="00:05.771"
+			timeRelativeToTestModuleStartTime="00:05.772"
+			timeWallClock="14:51:08"
+			time="00:05.771"
 			level="Success"
 			category="Validation">
 			<message>
@@ -172,16 +172,16 @@
 				fullname="Demo1Repository.ClientSide.TxtChatScreen"
 				id="2a6e1b8416344fed8688bd008a6d6893"
 				timeout="60000"
-				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
 				codeline="157"
 				loglvl="Success"
 				itemindex="5"/>
 		</item>
 		<item
-			timeRelativeToTestSuiteStartTime="00:05.457"
-			timeRelativeToTestModuleStartTime="00:05.457"
-			timeWallClock="23:22:59"
-			time="00:05.457"
+			timeRelativeToTestSuiteStartTime="00:05.774"
+			timeRelativeToTestModuleStartTime="00:05.775"
+			timeWallClock="14:51:08"
+			time="00:05.774"
 			level="Info"
 			category="Application">
 			<message>
@@ -193,16 +193,16 @@
 				fullname="Demo1Repository.ServerSide.Self"
 				id="39fe45d1901742c59647834a554cede2"
 				timeout="30000"
-				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
 				codeline="160"
 				itemindex="6"
 				loglvl="Info"/>
 		</item>
 		<item
-			timeRelativeToTestSuiteStartTime="00:05.524"
-			timeRelativeToTestModuleStartTime="00:05.524"
-			timeWallClock="23:22:59"
-			time="00:05.524"
+			timeRelativeToTestSuiteStartTime="00:05.813"
+			timeRelativeToTestModuleStartTime="00:05.814"
+			timeWallClock="14:51:08"
+			time="00:05.813"
 			level="Info"
 			category="Application">
 			<message>
@@ -214,7 +214,7 @@
 				fullname="Demo1Repository.ClientSide.Self"
 				id="b232837eb23e424199ea7130de03415a"
 				timeout="30000"
-				codefile="d:\Form KMS\Test\Test\Demo1\Demo1\ConnectSuccessfull.cs"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
 				codeline="164"
 				itemindex="7"
 				loglvl="Info"/>

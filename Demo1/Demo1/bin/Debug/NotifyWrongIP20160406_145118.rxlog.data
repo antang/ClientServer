@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="39c786efdf39bc3a"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="antang"
+		host="SGH052QDSQ"
+		rxversion="5.4.6.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/6/2016 2:51:26 PM"
+		timestampiso="2016-04-06T07:51:26"
+		timeoutfactor="1"
+		module="NotifyWrongIP">
+		<detail>
+			NotifyWrongIP
+		</detail>
+		<errmsg>
+			Failed to run application 'D:\Form KMS\ClientServer-master\ClientServer-master\CLIENT\ClientTest\bin\Debug\ClientTest.exe'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.229"
+			timeRelativeToTestModuleStartTime="00:00.229"
+			timeWallClock="14:51:26"
+			time="00:00.229"
+			level="Warn"
+			category="Data"
+			errimg=".\NotifyWrongIP20160406_145118_277f497e_trace.jpg"
+			errthumb=".\NotifyWrongIP20160406_145118_277f497e_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>var_LinkServer, var_IPServer, var_LinkClient, var_ConnectSuccessful, var_Message
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.255"
+			timeRelativeToTestModuleStartTime="00:00.255"
+			timeWallClock="14:51:26"
+			time="00:00.255"
+			level="Info"
+			category="Application"
+			errimg=".\NotifyWrongIP20160406_145118_277f497e_trace.jpg"
+			errthumb=".\NotifyWrongIP20160406_145118_277f497e_trace_thumb.jpg">
+			<message>
+				Run Client<br/>Run application with file name from variable $var_LinkClient with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\NotifyWrongIP.cs"
+				codeline="148"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.289"
+			timeRelativeToTestModuleStartTime="00:00.289"
+			timeWallClock="14:51:26"
+			time="00:00.289"
+			level="Error"
+			category="Module"
+			errimg=".\NotifyWrongIP20160406_145118_277f497e_trace.jpg"
+			errthumb=".\NotifyWrongIP20160406_145118_277f497e_trace_thumb.jpg">
+			<message>
+				Failed to run application 'D:\Form KMS\ClientServer-master\ClientServer-master\CLIENT\ClientTest\bin\Debug\ClientTest.exe'.<br/>The system cannot find the file specified
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized)
+   at Demo1.NotifyWrongIP.Ranorex.Core.Testing.ITestModule.Run() in d:\Topic_Research\Git\ClientServer\Demo1\Demo1\NotifyWrongIP.cs:line 149
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\NotifyWrongIP.cs"
+				codeline="149"
+				loglvl="Error"
+				itemindex="0"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="26dcb7cf460f9bf0"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="antang"
+		host="SGH052QDSQ"
+		rxversion="5.4.6.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/6/2016 1:24:02 PM"
+		timestampiso="2016-04-06T06:24:02"
+		timeoutfactor="1"
+		module="ConnectSuccessful">
+		<detail>
+			ConnectSuccessful
+		</detail>
+		<errmsg>
+			Attribute 'Text' of element for item 'Demo1Repository.ClientSide.TxtChatScreen' does not match the specified RegEx (actual='', regex='is\ connecting\ with\ you').
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.279"
+			timeRelativeToTestModuleStartTime="00:00.282"
+			timeWallClock="13:24:03"
+			time="00:00.279"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>var_LinkServer, var_LinkClient, var_IPServer, var_ConnectSuccessful
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.298"
+			timeRelativeToTestModuleStartTime="00:00.300"
+			timeWallClock="13:24:03"
+			time="00:00.298"
+			level="Info"
+			category="Application">
+			<message>
+				Run Server<br/>Run application with file name from variable $var_LinkServer with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
+				codeline="135"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.605"
+			timeRelativeToTestModuleStartTime="00:00.608"
+			timeWallClock="13:24:03"
+			time="00:00.605"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'Text' from item 'ServerSide.TxtIPServer' and assigning its value to variable 'var_IPServer'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ServerSide']/text[@controlname='txt_IPServer']"
+				fullname="Demo1Repository.ServerSide.TxtIPServer"
+				id="0300e711cd5b4084b10929b1d22d4d58"
+				timeout="60000"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
+				codeline="139"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.698"
+			timeRelativeToTestModuleStartTime="00:02.700"
+			timeWallClock="13:24:05"
+			time="00:02.698"
+			level="Info"
+			category="Application">
+			<message>
+				Run Client<br/>Run application with file name from variable $var_LinkClient with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
+				codeline="144"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.957"
+			timeRelativeToTestModuleStartTime="00:02.959"
+			timeWallClock="13:24:05"
+			time="00:02.957"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$var_IPServer' with focus on 'ClientSide.TxtIPAddress'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ClientSide']/text[@controlname='txtIPAddress']"
+				fullname="Demo1Repository.ClientSide.TxtIPAddress"
+				id="b3f96c3023d94f94a9f75e2d85466101"
+				timeout="60000"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
+				codeline="148"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.420"
+			timeRelativeToTestModuleStartTime="00:05.422"
+			timeWallClock="13:24:08"
+			time="00:05.420"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ClientSide.BtnConnect' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ClientSide']/button[@controlname='btnConnect']"
+				fullname="Demo1Repository.ClientSide.BtnConnect"
+				id="8d734e1469764af7a33c9a98ecb33b7c"
+				timeout="60000"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
+				codeline="152"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.200"
+			timeRelativeToTestModuleStartTime="00:06.203"
+			timeWallClock="13:24:08"
+			time="00:06.200"
+			level="Info"
+			category="Validation"
+			errimg=".\ConnectSuccessful20160406_132357_c9a1a9c7_trace.jpg"
+			errthumb=".\ConnectSuccessful20160406_132357_c9a1a9c7_trace_thumb.jpg">
+			<message>
+				Validating AttributeContains (Text&gt;$var_ConnectSuccessful) on item 'ClientSide.TxtChatScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ClientSide']/text[@controlname='txtChatScreen']"
+				fullname="Demo1Repository.ClientSide.TxtChatScreen"
+				id="2a6e1b8416344fed8688bd008a6d6893"
+				timeout="60000"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
+				codeline="156"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.331"
+			timeRelativeToTestModuleStartTime="00:06.333"
+			timeWallClock="13:24:09"
+			time="00:06.331"
+			level="Failure"
+			category="Validation"
+			errimg=".\ConnectSuccessful20160406_132357_81179d67_trace.jpg"
+			errthumb=".\ConnectSuccessful20160406_132357_81179d67_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'Demo1Repository.ClientSide.TxtChatScreen' does not match the specified RegEx (actual='', regex='is\ connecting\ with\ you').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ClientSide']/text[@controlname='txtChatScreen']"
+				fullname="Demo1Repository.ClientSide.TxtChatScreen"
+				id="2a6e1b8416344fed8688bd008a6d6893"
+				timeout="60000"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
+				codeline="157"
+				loglvl="Failure"
+				itemindex="5"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.347"
+			timeRelativeToTestModuleStartTime="00:06.349"
+			timeWallClock="13:24:09"
+			time="00:06.347"
+			level="Error"
+			category="Module"
+			errimg=".\ConnectSuccessful20160406_132357_81179d67_trace.jpg"
+			errthumb=".\ConnectSuccessful20160406_132357_81179d67_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'Demo1Repository.ClientSide.TxtChatScreen' does not match the specified RegEx (actual='', regex='is\ connecting\ with\ you').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Regex regex, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Regex regex, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Regex regex)
+   at Demo1.ConnectSuccessful.Ranorex.Core.Testing.ITestModule.Run() in d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs:line 157
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="d:\Topic_Research\Git\ClientServer\Demo1\Demo1\ConnectSuccessful.cs"
+				codeline="157"
+				type="repoitem"
+				path="/form[@controlname='ClientSide']/text[@controlname='txtChatScreen']"
+				fullname="Demo1Repository.ClientSide.TxtChatScreen"
+				id="2a6e1b8416344fed8688bd008a6d6893"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="5"/>
+		</item>
+	</activity>
+</report>

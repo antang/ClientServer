@@ -63,6 +63,18 @@
       <RepositoryCode>true</RepositoryCode>
       <id>8761a8be-6948-4388-bdc4-d3b2822eaf26</id>
     </Compile>
+    <Compile Include="Disconnect_ConnectAgain.cs">
+      <BoundTo>8e2e534e-17e6-47d6-8e1c-6d7b86f9ad7b</BoundTo>
+      <DependentUpon>Disconnect_ConnectAgain.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>06ee8666-9c13-46b5-b199-1c9085ad1075</id>
+    </Compile>
+    <Compile Include="Disconnect_ConnectAgain.UserCode.cs">
+      <BoundTo>8e2e534e-17e6-47d6-8e1c-6d7b86f9ad7b</BoundTo>
+      <DependentUpon>Disconnect_ConnectAgain.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4d7ade79-1d9a-48c1-9151-8ba0171a2493</id>
+    </Compile>
     <Compile Include="NotifyWrongIP.cs">
       <BoundTo>f01a0fb3-c224-4867-aaaa-25117a31a1c8</BoundTo>
       <DependentUpon>NotifyWrongIP.rxrec</DependentUpon>
@@ -90,6 +102,18 @@
       <UserCode>true</UserCode>
       <id>fcac930f-f51e-4b16-8391-b8eb2352927e</id>
     </Compile>
+    <Compile Include="ServerSendMessage.cs">
+      <BoundTo>48e2a9df-c3ed-46a1-983c-2a2623f2b46f</BoundTo>
+      <DependentUpon>ServerSendMessage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5c0c2c26-56f1-414a-8cec-e40d070d4335</id>
+    </Compile>
+    <Compile Include="ServerSendMessage.UserCode.cs">
+      <BoundTo>48e2a9df-c3ed-46a1-983c-2a2623f2b46f</BoundTo>
+      <DependentUpon>ServerSendMessage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4c5d7fcf-bbbc-481a-809e-0df8273f129f</id>
+    </Compile>
     <None Include="app.config">
       <id>ec20bdbc-197b-40dd-996f-b41140e541cb</id>
     </None>
@@ -109,10 +133,20 @@
       <id>2d4f34a3-727f-4497-be45-6e7c35caa23c</id>
       <recordtableid>338cb4df-a9f9-44be-9cca-8acad7024cfc</recordtableid>
     </None>
+    <None Include="Disconnect_ConnectAgain.rxrec">
+      <BoundTo>fb6e465f-9c5f-4094-90a6-cc63c90ba6fd</BoundTo>
+      <id>8e2e534e-17e6-47d6-8e1c-6d7b86f9ad7b</id>
+      <recordtableid>0e496d5f-6086-4bc2-9aa7-e3d8890d3222</recordtableid>
+    </None>
     <None Include="NotifyWrongIP.rxrec">
       <BoundTo>fb6e465f-9c5f-4094-90a6-cc63c90ba6fd</BoundTo>
       <id>f01a0fb3-c224-4867-aaaa-25117a31a1c8</id>
       <recordtableid>006ee940-e0ef-40ab-8f1e-610f33a90cc9</recordtableid>
+    </None>
+    <None Include="ServerSendMessage.rxrec">
+      <BoundTo>fb6e465f-9c5f-4094-90a6-cc63c90ba6fd</BoundTo>
+      <id>48e2a9df-c3ed-46a1-983c-2a2623f2b46f</id>
+      <recordtableid>5f12c41d-dd78-44ca-8cd6-1b501a683dad</recordtableid>
     </None>
     <Content Include="Demo1.rxtmg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
