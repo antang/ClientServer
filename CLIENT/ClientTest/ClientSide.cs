@@ -114,28 +114,36 @@ namespace ClientTest
             }
         }
         //END RECEIVE PACKAGE FROM SERVER
-
+        int num;
 
         //---BTUTTON CONNECT---
         public void btnConnect_Click(object sender, EventArgs e)
         {
             try
             {
-                //Connect to Server
-                m_chatProvider.Connect(txtIPAddress.Text, 1234);
+                if (int.TryParse(txtIPAddress.Text,out num))
+                {
+                    MessageBox.Show("IP Address is invalid or the other side is not accessable!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    //Connect to Server
+                    m_chatProvider.Connect(txtIPAddress.Text, 1234);
 
-                //Set Button status
-                btnConnect.Enabled = false;
-                btnDisconnect.Enabled = true;
-                btnSend.Enabled = true;
+                    //Set Button status
+                    btnConnect.Enabled = false;
+                    btnDisconnect.Enabled = true;
+                    btnSend.Enabled = true;
 
-                //Move cursor to Message Text Box after Click/Enter Connect Button
-                txtMessage.Focus();
-                txtMessage.TabIndex = 0;
+                    //Move cursor to Message Text Box after Click/Enter Connect Button
+                    txtMessage.Focus();
+                    txtMessage.TabIndex = 0;
 
-                ///<Using SendChatMessage>: use SendChatMessage method to send package (string,...)
-                //Send Client's host name to Server  to notify new agent connected
-                SendChatMessage("<New agent received...>");
+                    ///<Using SendChatMessage>: use SendChatMessage method to send package (string,...)
+                    //Send Client's host name to Server  to notify new agent connected
+                    SendChatMessage("<New agent received...>");
+                }
+                
             }
             catch
             {
