@@ -67,3 +67,6 @@ D:\Topic_Research\Git\ClientServer\CLIENT\ClientTest\obj\Debug\ClientTest.csproj
 D:\Topic_Research\Git\ClientServer\CLIENT\ClientTest\obj\Debug\ClientTest.ClientSide.resources
 D:\Topic_Research\Git\ClientServer\CLIENT\ClientTest\obj\Debug\ClientTest.Properties.Resources.resources
 D:\Topic_Research\Git\ClientServer\CLIENT\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.Cache
+D:\Form KMS\Git\ClientServer\CLIENT\ClientTest\bin\Debug\ClientTest.exe.config
+D:\Form KMS\Git\ClientServer\CLIENT\ClientTest\obj\Debug\ClientTest.exe
+D:\Form KMS\Git\ClientServer\CLIENT\ClientTest\obj\Debug\ClientTest.pdb
