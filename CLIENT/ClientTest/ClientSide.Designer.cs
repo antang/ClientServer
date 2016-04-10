@@ -36,7 +36,6 @@
             this.btnSend = new System.Windows.Forms.Button();
             this.lblScreen = new System.Windows.Forms.Label();
             this.btnDisconnect = new System.Windows.Forms.Button();
-            this.TxtPort = new System.Windows.Forms.Label();
             this.txtChatScreen = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -130,16 +129,6 @@
             this.btnDisconnect.UseVisualStyleBackColor = true;
             this.btnDisconnect.Click += new System.EventHandler(this.btnDisconnect_Click);
             // 
-            // TxtPort
-            // 
-            this.TxtPort.AutoSize = true;
-            this.TxtPort.Font = new System.Drawing.Font("Verdana", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtPort.Location = new System.Drawing.Point(133, 42);
-            this.TxtPort.Name = "TxtPort";
-            this.TxtPort.Size = new System.Drawing.Size(139, 16);
-            this.TxtPort.TabIndex = 5;
-            this.TxtPort.Text = "(Automatic Port !)";
-            // 
             // txtChatScreen
             // 
             this.txtChatScreen.Location = new System.Drawing.Point(136, 171);
@@ -155,10 +144,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(506, 344);
             this.Controls.Add(this.txtChatScreen);
-            this.Controls.Add(this.TxtPort);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.btnDisconnect);
             this.Controls.Add(this.btnConnect);
@@ -190,7 +178,6 @@
         private System.Windows.Forms.Button btnSend;
         private System.Windows.Forms.Label lblScreen;
         private System.Windows.Forms.Button btnDisconnect;
-        private System.Windows.Forms.Label TxtPort;
         private System.Windows.Forms.TextBox txtChatScreen;
     }
 }
